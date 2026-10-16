@@ -1,0 +1,25 @@
+# Bağımlılıklar (Node.js)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ortam değişkenleri ve gizli anahtarlar
+.env
+.env.local
+.env.*.local
+
+# Python kalıntıları
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# İşletim sistemi ve editör dosyaları
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
